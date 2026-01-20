@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechWave Podcast</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+      }
+    </style>
+  </head>
+  <body class="bg-black text-white">
+    <!-- Header Section -->
+    <header class="w-full bg-[#1A0B2E] border-b border-[#412567]">
+      <nav
+        class="max-w-7xl mx-auto flex items-center justify-between px-6 h-[92px]"
+      >
+        <div>
+          <a href="#"><img src="./assets/logo.svg" alt="TechWave Logo" /></a>
+        </div>
+
+        <ul
+          class="hidden min-[993px]:flex items-center gap-10 text-sm font-medium text-gray-200"
+        >
+          <li class="opacity-80 hover:opacity-100 hover:text-white transition">
+            About
+          </li>
+          <li class="opacity-80 hover:opacity-100 hover:text-white transition">
+            Episodes
+          </li>
+          <li class="opacity-80 hover:opacity-100 hover:text-white transition">
+            Host
+          </li>
+        </ul>
+
+        <button
+          class="hidden min-[993px]:inline-flex items-center px-6 py-2 text-sm font-medium rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-yellow-400 transition-transform duration-300 hover:scale-105"
+        >
+          Subscribe →
+        </button>
+        <img
+          src="./assets/hamburger-menu.png"
+          alt="Menu"
+          class="min-[993px]:hidden w-6 h-6 cursor-pointer"
+        />
+      </nav>
+    </header>
+  </body>
+</html>
